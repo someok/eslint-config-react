@@ -16,7 +16,7 @@
 ```json
 {
     "extends": [
-        "eslint-config-react"
+        "@someok/eslint-config-react"
     ]
 }
 ```
