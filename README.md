@@ -5,6 +5,22 @@
 
 此配置依赖 `airbnb` 的配置，并做了一些简单的调整。
 
+## 安装
+
+> npm i --save-dev @someok/eslint-config-react
+
+## 配置
+
+`.eslintrc.json` 配置：
+
+```json
+{
+    "extends": [
+        "eslint-config-react"
+    ]
+}
+```
+
 ## 配置查看方式
 
 如果想查看某项目下合并后的 eslint 配置，可以运行如下命令：
