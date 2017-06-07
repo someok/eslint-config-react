@@ -11,7 +11,7 @@
     "eslintconfig"
   ],
   "scripts": {
-    "release": "npm version patch && npm publish && git push --tags"
+    "release": "npm version patch && npm publish --access public && git push --tags"
   },
   "peerDependencies": {
     "babel-eslint": ">=7",
