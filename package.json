@@ -1,0 +1,27 @@
+{
+  "name": "@someok/eslint-config-react",
+  "version": "1.0.0",
+  "description": "someok react eslint config",
+  "main": "index.js",
+  "repository": "https://github.com/someok/eslint-config-react.git",
+  "author": "JX Wang <wjianxu@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "scripts": {
+    "release": "npm version patch && npm publish && git push --tags"
+  },
+  "peerDependencies": {
+    "babel-eslint": ">=7",
+    "eslint": ">=3",
+    "eslint-config-airbnb": ">=14",
+    "eslint-plugin-import": ">=2",
+    "eslint-plugin-jsx-a11y": ">=4",
+    "eslint-plugin-react": ">=6"
+  },
+  "files": [
+    "index.js"
+  ]
+}
