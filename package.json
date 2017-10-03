@@ -1,6 +1,6 @@
 {
   "name": "@someok/eslint-config-react",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "someok react eslint config",
   "main": "index.js",
   "repository": "https://github.com/someok/eslint-config-react.git",
