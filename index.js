@@ -51,6 +51,9 @@ module.exports = {
         // 允许只有一个非 default 的 export
         "import/prefer-default-export": 0,
 
+        // export default 模块名称可以不存在
+        "import/no-named-as-default": 0,
+
         // 允许 js 扩展名
         "react/jsx-filename-extension": 0,
         "react/jsx-indent": [
