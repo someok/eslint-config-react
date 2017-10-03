@@ -45,7 +45,11 @@ module.exports = {
         "prefer-template": 0,
         "space-before-function-paren": [
             2,
-            "never"
+            {
+                "anonymous": "never",
+                "named": "never",
+                "asyncArrow": "always"
+            }
         ],
 
         // 允许只有一个非 default 的 export
