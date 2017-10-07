@@ -43,6 +43,8 @@ module.exports = {
         "object-curly-spacing": 0,
         "padded-blocks": 0,
         "prefer-template": 0,
+        "function-paren-newline": 0,
+        "prefer-destructuring": 0,
         "space-before-function-paren": [
             2,
             {
