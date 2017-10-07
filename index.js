@@ -54,6 +54,8 @@ module.exports = {
             }
         ],
 
+        "jsx-a11y/anchor-is-valid": 0,
+
         // 允许只有一个非 default 的 export
         "import/prefer-default-export": 0,
 
