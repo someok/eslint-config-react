@@ -41,6 +41,7 @@ module.exports = {
             }
         ],
         "object-curly-spacing": 0,
+        "object-curly-newline": 0,
         "padded-blocks": 0,
         "prefer-template": 0,
         "function-paren-newline": 0,
